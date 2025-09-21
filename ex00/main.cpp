@@ -6,8 +6,16 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/21 18:43:43 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/21 18:46:20 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/21 20:49:40 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "zombie.hpp"
+#include "Zombie.hpp"
+
+int main()
+{
+	Zombie *Zombie = newZombie("hipo");
+	randomChump("stako");
+	delete Zombie;
+	return 0;
+}
