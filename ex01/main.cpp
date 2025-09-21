@@ -18,8 +18,8 @@ int main()
 	Zombie *horde = zombieHorde(N, "hipo");
 	for (int i = 0; i < N; i++)
 	{
-		horde->announce();
+		horde[i].announce();
 	}
-	delete horde;
+	delete[] horde;
 	return 0;
 }
