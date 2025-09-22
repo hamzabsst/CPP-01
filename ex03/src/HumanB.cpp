@@ -29,7 +29,6 @@ void HumanB::setWeapon(Weapon &weapon)
 {
 	this->_weapon = &weapon;
 	this->has_weapon = true;
-	std::cout << this->_name << " grabbed a " << this->_weapon->getType() << " to fight with." << std::endl;
 }
 
 void HumanB::attack(void)
