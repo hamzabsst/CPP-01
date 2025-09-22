@@ -6,7 +6,7 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 12:41:09 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/22 13:19:56 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/22 13:40:24 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Weapon
 	public:
 		Weapon(const std::string &weapon);
 		~Weapon();
-		std::string getType() const ;
+		std::string getType();
 		void		setType(const std::string &weapon);
 };
 
