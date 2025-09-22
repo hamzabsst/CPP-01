@@ -6,14 +6,29 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 12:41:16 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/22 12:49:45 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/22 13:24:55 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef HUMAN_B_HPP
 # define HUMAN_B_HPP
 
+#include "Weapon.hpp"
+#include <iostream>
+#include <string>
 
+class HumanB
+{
+	private:
+		std::string	_name;
+		Weapon		*_weapon;
+		bool		has_weapon;
+	public:
+		HumanB(std::string name);
+		~HumanB();
+		void setWeapon(Weapon &weapon);
+		void attack();
+};
 
 
 
