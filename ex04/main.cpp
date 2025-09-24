@@ -35,7 +35,7 @@ int main(int ac, char **av)
 	std::ifstream infile(filename.c_str());
 	if (!infile.is_open())
 	{
-		std::cerr << "Error: cannot open input file '" << filename << "'\n";
+		std::cerr << "Error: cannot open input file" << std::endl;
 		return 1;
 	}
 	while (std::getline(infile, line))
