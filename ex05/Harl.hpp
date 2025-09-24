@@ -6,12 +6,11 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 14:49:43 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/23 14:51:52 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/24 15:34:57 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HARL_HPP
-#define HARL_HPP
+#pragma once
 
 #include <iostream>
 
@@ -25,5 +24,3 @@ class Harl
 	public:
 		void complain(std::string level);
 };
-
-#endif

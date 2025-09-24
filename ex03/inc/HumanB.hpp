@@ -6,12 +6,11 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 12:41:16 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/22 13:24:55 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/24 15:34:13 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HUMAN_B_HPP
-# define HUMAN_B_HPP
+#pragma once
 
 #include "Weapon.hpp"
 #include <iostream>
@@ -29,7 +28,3 @@ class HumanB
 		void setWeapon(Weapon &weapon);
 		void attack();
 };
-
-
-
-#endif
