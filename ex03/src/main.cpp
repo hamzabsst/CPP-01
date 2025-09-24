@@ -6,13 +6,12 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 12:41:14 by hbousset          #+#    #+#             */
-/*   Updated: 2025/09/22 13:13:16 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/09/24 15:34:40 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
-#include "Weapon.hpp"
 
 int main()
 {
