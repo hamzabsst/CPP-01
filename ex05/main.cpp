@@ -15,6 +15,11 @@
 int main()
 {
 	Harl _harl;
-	_harl.complain("debug");
+	std::string	input;
+
+	std::cout << "Enter a complaint: (debug, info ,warning, error):" << std::endl;
+	std::getline(std::cin, input);
+	_harl.complain(input);
 	return 0;
 }
+
