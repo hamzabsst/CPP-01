@@ -16,7 +16,7 @@
 HumanB::HumanB(std::string name)
 {
 	this->_name = name;
-	this->has_weapon = false;
+	this->_has_weapon = false;
 	std::cout << this->_name <<" joined the battlefield." << std::endl;
 }
 
@@ -28,12 +28,12 @@ HumanB::~HumanB(void)
 void HumanB::setWeapon(Weapon &weapon)
 {
 	this->_weapon = &weapon;
-	this->has_weapon = true;
+	this->_has_weapon = true;
 }
 
 void HumanB::attack(void)
 {
-	if (this->has_weapon)
+	if (this->_has_weapon)
 	{
 		std::cout << this->_name << " attacks with " << this->_weapon->getType() << std::endl;
 	}
